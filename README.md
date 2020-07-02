@@ -11,7 +11,7 @@ python -m pip install jproperties
 ```
 Example for properties file :-
 ```
-username =YOUR_USERNAME
+username=YOUR_USERNAME
 pass=YOUR_PASSWORD
 
 ```
