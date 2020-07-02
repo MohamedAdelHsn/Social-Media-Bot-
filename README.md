@@ -9,4 +9,9 @@ if you want to make your login data in external properties file, you can use [jp
 ```
 python -m pip install jproperties 
 ```
-#### How properties file work
+Example for properties file :-
+```
+username =YOUR_USERNAME
+pass=YOUR_PASSWORD
+
+```
