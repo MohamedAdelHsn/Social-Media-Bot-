@@ -13,7 +13,6 @@ Example for properties file :-
 ```
 username=YOUR_USERNAME
 pass=YOUR_PASSWORD
-
 ```
 Reading data from properties file in python
 ```python
