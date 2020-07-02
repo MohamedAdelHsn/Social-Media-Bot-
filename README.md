@@ -4,5 +4,4 @@ Social media bots is a collection of python tutorials that enable you to control
 before we will create web bots we should install selenium web driver in python from cmd
 ```
 python -m pip install -U Selenium  
-
 ```
