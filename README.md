@@ -5,3 +5,8 @@ Before we will create web bots we should install [Selenium web driver](https://w
 ```
 python -m pip install -U Selenium  
 ```
+if you want to make your login data in external properties file, you can use [jproperties](https://pypi.org/project/jproperties/) lib in your project by using pip 
+```
+python -m pip install jproperties 
+```
+#### How properties file work
