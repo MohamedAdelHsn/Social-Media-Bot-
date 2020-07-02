@@ -15,3 +15,19 @@ username=YOUR_USERNAME
 pass=YOUR_PASSWORD
 
 ```
+Reading data from properties file in python
+```python
+   from jproperties import Properties 
+   
+   #preparing properties object to read data 
+   configs = Properties()
+   
+   #load properties file
+with open(r'C:\Users\Owner\Desktop\pythonTest\config.properties', 'rb') as config_file:
+	configs.load(config_file)
+  
+  # get data from file as username and password using keys  
+   username = configs.get('username').data   #YOUR_USERNAME
+   password = configs.get('pass').data       #YOUR_PASSWORD
+
+```
