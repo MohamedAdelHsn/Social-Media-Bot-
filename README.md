@@ -16,17 +16,17 @@ pass=YOUR_PASSWORD
 ```
 Reading data from properties file in python
 ```python
-   from jproperties import Properties 
+ from jproperties import Properties 
    
-   #preparing properties object to read data 
-   configs = Properties()
+ #preparing properties object to read data 
+ configs = Properties()
    
-   #load properties file
+ #load properties file
  with open(r'YOUR_PATH.properties', 'rb') as config_file:
-   configs.load(config_file)
+ configs.load(config_file)
   
-  # get data from file as username and password using keys  
-   username = configs.get('username').data   #YOUR_USERNAME
-   password = configs.get('pass').data       #YOUR_PASSWORD
+ #get data from file as username and password using keys  
+ username = configs.get('username').data   #YOUR_USERNAME
+ password = configs.get('pass').data       #YOUR_PASSWORD
 
 ```
