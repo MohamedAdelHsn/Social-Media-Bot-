@@ -30,3 +30,5 @@ Reading data from properties file in python
  password = configs.get('pass').data       #YOUR_PASSWORD
 
 ```
+setup your driver --- [Chrome web driver](https://chromedriver.chromium.org/downloads) that is the same version of your original Chrome ---
+
