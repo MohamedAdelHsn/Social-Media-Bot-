@@ -31,4 +31,9 @@ Reading data from properties file in python
 
 ```
 setup your driver --- [Chrome web driver](https://chromedriver.chromium.org/downloads) that is the same version of your original Chrome ---
+prepare your own chrome web driver.exe in python 
+```python
+   from selenium import webdriver
+   driver =  webdriver.Chrome(r"C:\Python\chromedriver_win32\chromedriver.exe") # change to your path
 
+```
