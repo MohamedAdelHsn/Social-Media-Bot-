@@ -39,5 +39,5 @@ prepare your own chrome web driver.exe in python
 ```
 use screenshot option to view your auto_test
 ```python
-driver.save_screenshot("screenshot.png")
+driver.save_screenshot(r"YOUR_PATH\screenshot.png")
 ```
