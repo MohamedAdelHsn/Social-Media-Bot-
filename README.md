@@ -37,3 +37,7 @@ prepare your own chrome web driver.exe in python
  driver =  webdriver.Chrome(r"C:\Python\chromedriver_win32\chromedriver.exe") # change to your path
 
 ```
+use screenshot option to view your auto_test
+```python
+driver.save_screenshot("screenshot.png")
+```
