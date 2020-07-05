@@ -35,14 +35,11 @@ time.sleep(2)
 
 # press login button 
 driver.find_element_by_id('loginbutton').send_keys(Keys.ENTER)
-time.sleep(20)
-#close browser
-driver.close()
+time.sleep(10)
 
 print('Auto login to facebook has been successfully  # thanks too')
 
 print('opening messenger web app ....')
-time.sleep(10)
 
 #press meessenger button to select your friend
 messenger_button = driver.find_element_by_xpath('/html/body/div[1]/div/div/div[1]/div[5]/div[1]/div[2]/span/div')
